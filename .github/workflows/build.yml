@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Generate Android platform files
+        run: flutter create --org com.yourname --project-name my_financial_manager --platforms android .
+
       - name: Run tests
         run: flutter test
         continue-on-error: true
