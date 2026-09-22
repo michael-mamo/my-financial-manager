@@ -7,7 +7,7 @@ import 'features/home/home_shell.dart';
 import 'features/security/pin_lock_screen.dart';
 import 'features/setup/setup_wizard_screen.dart';
 import 'l10n/app_localizations.dart';
-mkdir .github\workflows
+
 void main() {
   runApp(const ProviderScope(child: PersonalFinanceApp()));
 }
